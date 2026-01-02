@@ -1,0 +1,41 @@
+# WordPress core files
+wordpress/wp-config.php
+wordpress/.htaccess
+
+# Database files (should NEVER be in git)
+mysql/
+*.sql
+*.sql.gz
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment files (may contain secrets)
+.env
+.env.local
+.env.*.local
